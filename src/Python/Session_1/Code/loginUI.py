@@ -2,13 +2,13 @@ import random
 
 def login_sys ():
     user = "test"
-    password = "1111"
+    password = "1234"
     while True:
         x = input ("Enter Your Username:  ")
         if x == user:
             y = input ("Enter Your password:  ")
             if y == password:
-                v = random.randrange (1000, 10000)
+                v = random.randrange (100, 999)
                 print (f"Your Code is {v}")
                 while True:
                     e = int (input ("Enter Your code: "))
